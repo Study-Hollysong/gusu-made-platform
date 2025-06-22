@@ -293,8 +293,8 @@
 							font-size: 28rpx;
 						}
 						.sign-garden{
-							width: $W/2;
-							height: $W/2;
+                                width: math.div($W, 2);
+                                height: math.div($W, 2);
 							border-radius: 50%;
 							color: #444a62;
 							font-weight: 600;
@@ -309,7 +309,7 @@
 					position: absolute;
 					bottom: 0;
 					left: 50%;
-					margin-left: -$W/2;
+                                margin-left: -math.div($W, 2);
 					.footer-outer{
 						width: $W;
 						height: $W;
