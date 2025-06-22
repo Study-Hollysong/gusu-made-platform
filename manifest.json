@@ -49,18 +49,12 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wxfe9db134d8eaf48c",
+        "appid" : "wx3fdae93ad1222ce4",
         "setting" : {
             "urlCheck" : false,
             "minified" : true
         },
         "usingComponents" : true,
-        "plugins" : {
-            "tencentvideo" : {
-                "version" : "1.3.17",
-                "provider" : "wxa75efa648b60994b"
-            }
-        },
         "permission" : {
             "scope.userLocation" : {
                 "desc" : "获取用户位置，仅用于演示定位功能"
