@@ -2,7 +2,7 @@
 	"easycom": {
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/tabbar",
 			"style": {
@@ -53,7 +53,7 @@
 		{
 			"path": "pages/video",
 			"style": {
-				"navigationBarTitleText": "视频播放",
+				"navigationBarTitleText": "视频播放"
 			}
 		},
 		{
@@ -294,13 +294,6 @@
 						"navigationBarTitleText": "在线选座"
 					}
 				},
-				// {
-				// 	"path": "loveChina",
-				// 	"style": {
-				// 		"navigationStyle": "custom",
-				// 		"navigationBarTitleText": "国庆头像"
-				// 	}
-				// },
 				{
 					"path": "chat/chat",
 					"style": {
@@ -409,7 +402,6 @@
 						"navigationStyle": "custom"
 					}
 				},
-				// 临时工单
 				{
 					"path": "workOrder/index",
 					"style" : {

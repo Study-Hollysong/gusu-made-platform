@@ -290,11 +290,13 @@ exports.default = void 0;
 //
 //
 //
+//
 var _default = {
   components: {},
   data: function data() {
     return {
       videoUrl: 'x3032spkh1m',
+      videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4",
       getData: [{
         title: 'uniapp开发',
         studyNum: '335',

@@ -19233,7 +19233,7 @@ QRBitBuffer.prototype = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-pages-loader/lib/index.js):\nSyntaxError: Unexpected token } in JSON at position 1102\n    at JSON.parse (<anonymous>)\n    at parseJson (D:\\Direct-Software\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\uni-cli-shared\\lib\\json.js:17:20)\n    at parsePagesJson (D:\\Direct-Software\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\uni-cli-shared\\lib\\pages.js:43:27)\n    at Object.<anonymous> (D:\\Direct-Software\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\webpack-uni-pages-loader\\lib\\index-new.js:80:21)\n    at Object.<anonymous> (D:\\Direct-Software\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\webpack-uni-pages-loader\\lib\\index.js:58:35)");
 
 /***/ }),
 
