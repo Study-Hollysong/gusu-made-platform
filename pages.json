@@ -54,11 +54,6 @@
 			"path": "pages/video",
 			"style": {
 				"navigationBarTitleText": "视频播放",
-				"usingComponents": {
-					// #ifdef  MP-WEIXIN 
-					"txv-video": "plugin://tencentvideo/video"
-					// #endif
-				}
 			}
 		},
 		{
