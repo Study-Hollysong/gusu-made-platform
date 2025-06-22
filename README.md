@@ -1,34 +1,50 @@
 # Gusu Made Platform
 
-This repository contains the source code for **Gusu Made**, a custom cultural and creative goods platform. The project integrates AI generated content with traditional handicraft aesthetics. Users can create personalised souvenirs and order finished products online.
+Gusu Made is a custom cultural and creative product platform that mixes AI image generation with handcraft aesthetics. The code base was migrated to **Vue&nbsp;3** using **Vite** for a simpler development experience while the original UniApp resources remain for reference.
 
-The code base has been migrated to **Vue 3** with **Vite** for a modern development experience. The original UniApp resources are kept for reference, while a new Vite project is located under `vite-app/`.
+## Development
 
-## Getting Started
-
+### Install dependencies
 ```bash
-# install dependencies
-cd vite-app && npm install
+cd vite-app
+npm install
+```
 
-# start local dev server
+### Run a development server
+```bash
 npm run dev
 ```
+This starts the app at `http://localhost:5173`.
 
-The development server runs at `http://localhost:5173` by default.
-
-## Project Structure
-
+### Build for production
+```bash
+npm run build
 ```
+The compiled files will appear in `vite-app/dist/`.
+
+## Directory Layout
+```text
 vite-app/
-  index.html          -- Application entry
+  index.html      # Entry page
   src/
-    App.vue           -- Root Vue component
-    main.js           -- Mounts the Vue application
-  vite.config.js      -- Vite configuration
+    App.vue       # Root component
+    main.js       # Mounts the app
+  vite.config.js  # Vite configuration
+
+# Legacy UniApp project (kept for reference)
+colorui/
+common/
+components/
+...other directories
 ```
 
-All legacy UniApp pages and components are kept in the repository for future reference.
+## Key Features
+- WeChat login and user profile management
+- Template marketplace with AI‑powered image synthesis
+- Finished product store with order management
+- Admin system for configuration and analytics
+
+For more background and detailed requirements see the project documentation.
 
 ## License
-
-This project is released under the MIT License.
+MIT
