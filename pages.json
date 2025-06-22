@@ -52,9 +52,9 @@
 		},
 		{
 			"path": "pages/video",
-			"style": {
-				"navigationBarTitleText": "视频播放",
-			}
+                        "style": {
+                                "navigationBarTitleText": "视频播放"
+                        }
 		},
 		{
 			"path": "pages/project/list",
