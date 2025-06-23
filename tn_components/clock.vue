@@ -310,7 +310,7 @@
 					position: absolute;
 					bottom: 0;
 					left: 50%;
-					margin-left: -math.div($W, 2);
+                                        margin-left: math.div(-$W, 2);
 					.footer-outer{
 						width: $W;
 						height: $W;
