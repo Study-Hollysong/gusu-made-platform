@@ -29,6 +29,19 @@ vite-app/
 
 All legacy UniApp pages and components are kept in the repository for future reference.
 
+## Troubleshooting
+
+- **Sass compilation errors** – The project relies on the `sass:math` module for
+  division operations. Ensure your environment uses **Dart Sass 1.33+**. Older
+  versions will report `There is no module with the namespace "math"`. If
+  updating is not possible, replace calls to `math.div` with the traditional `/`
+  operator (which will emit deprecation warnings).
+- **WeChat Developer Tools not launching** – Running `npm run dev:mp-weixin`
+  requires a local installation of the WeChat Developer Tools. If the CLI
+  reports `Fail to open IDE`, confirm the tool is installed and that no other
+  instance is already running. You can manually open the tool and import the
+  generated `dist/build/mp-weixin` directory.
+
 ## License
 
 This project is released under the MIT License.
