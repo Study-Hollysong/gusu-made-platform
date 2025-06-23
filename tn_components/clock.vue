@@ -223,9 +223,10 @@
 </script>
 
 <style lang="scss" scoped>
-	$W: 140rpx;
-	$titleSize: 32rpx;
-	$signH: 80rpx;
+        @use "sass:math";
+        $W: 140rpx;
+        $titleSize: 32rpx;
+        $signH: 80rpx;
 	.b-card{
 		margin: 30rpx;
 		padding: 30rpx;
@@ -309,7 +310,7 @@
 					position: absolute;
 					bottom: 0;
 					left: 50%;
-					margin-left: -math.div($W, 2);
+                                        margin-left: math.div(-$W, 2);
 					.footer-outer{
 						width: $W;
 						height: $W;
